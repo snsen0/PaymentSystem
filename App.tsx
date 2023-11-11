@@ -2,7 +2,6 @@ import React, { useState, useRef } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { RNCamera } from 'react-native-camera';
 import QRCodeScanner from 'react-native-qrcode-scanner';
-import 'react-native-get-random-values';
 import '@ethersproject/shims';
 
 const ButtonApp = () => {
